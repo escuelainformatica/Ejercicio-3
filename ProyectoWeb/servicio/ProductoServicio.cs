@@ -11,7 +11,9 @@ namespace ProyectoWeb.servicio
     {
         public static int Calcular(Producto prod)
         {
-            return Convert.ToInt32(prod.Precio*1.19);
+            int r=0;
+            r=Convert.ToInt32(prod.Precio*1.19);
+            return r;
         }
         public static Producto Crear(TextBox txt1,TextBox txt2)
         {
